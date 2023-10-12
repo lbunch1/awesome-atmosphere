@@ -1,0 +1,20 @@
+{
+  "name": "awesome-atmosphere",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "tinacms dev -c 'astro dev'",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^1.1.1",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.1",
+    "@tinacms/cli": "^1.5.30",
+    "astro": "^3.2.4",
+    "tinacms": "^1.5.21"
+  }
+}
